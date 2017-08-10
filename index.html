@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>State of the ENS</title>
+    
+    <meta name="author" content="Nick Johnson" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+<div id="impress">
+    <div id="title" class="step slide" data-x="0" data-y="0">
+        <h1>Intro &amp; State of the ENS</h1>
+        <h2>Nick Johnson</h2>
+    </div>
+
+    <div id="welcome" class="step slide" data-x="1000">
+        <h1>Welcome</h1>
+        <div class="box">
+            <img src="twitter-logo.png">
+            <h2>#ENSWorkshop</h2>
+        </div>
+    </div>
+    <div id="sponsors" class="step slide" data-x="2000">
+        <h2>Sponsors</h2>
+    </div>
+    <div id="statusim" class="sponsor step" data-x="1750" data-y="-125" data-scale="0.33">
+        <img src="statusim-logo.png">
+    </div>
+    <div id="aragon" class="sponsor step" data-x="2250" data-y="-125" data-scale="0.33">
+        <img src="aragon-logo.svg">
+    </div>
+    <div id="bancor" class="sponsor step" data-x="1750" data-y="125" data-scale="0.33">
+        <img src="bancor-logo.png">
+    </div>
+    <div id="cryptocompare" class="sponsor step" data-x="2250" data-y="125" data-scale="0.33">
+        <img src="cryptocompare-logo.png">
+    </div>
+
+    <div id="status" class="step slide" data-x="3000">
+        <h1>State of the ENS</h1>
+        <h2>As of 2017-07-31</h2>
+    </div>
+    <div id="auctions" class="step slide stat visible" data-x="2775" data-y="0" data-scale="0.45">
+        <h4>180,822</h4>
+        <h3>Names auctioned</h3>
+        <img src="auctions and bids.png">
+    </div>
+    <div id="ether" class="step slide stat visible" data-x="3225" data-y="0" data-scale="0.45">
+        <h4>Ξ168,595</h4>
+        <h3>Ether deposited</h3>
+        <img src="locked ether.png">
+    </div>
+
+    <div id="topbids" class="step slide" data-x="4000" data-y="0">
+        <h1>Largest bids</h1>
+        <table>
+            <tr><th>ethfinex.eth</th><td>Ξ201,709</td></tr>
+            <tr><th>sportsbet.eth</th><td>Ξ188,888</td></tr>
+            <tr><th>consensys.eth</th><td>Ξ184,811</td></tr>
+            <tr><th>?</th><td>Ξ184,761</td></tr>
+            <tr><th>weifund.eth</th><td>Ξ184,400</td></tr>
+        </table>
+
+        <h1>Most expensive names</h1>
+        <table>
+            <tr><th>darkmarket.eth</th><td>Ξ20,103</td></tr>
+            <tr><th>openmarket.eth</th><td>Ξ10,054</td></tr>
+            <tr><th>exchange.eth</th><td>Ξ6,660</td></tr>
+            <tr><th>blackjack.eth</th><td>Ξ5,910</td></tr>
+            <tr><th>tickets.eth</th><td>Ξ2,976</td></tr>
+        </table>
+    </div>
+
+    <div id="contention" class="step slide" data-x="5000" data-y="0">
+        <h1>Prices &amp; contention rates</h1>
+    </div>
+    <div id="contention-rates" class="step slide stat visible" data-x="4775" data-y="0" data-scale="0.45">
+        <h4>35% / 7.2%</h4>
+        <h3>Contention rate</h3>
+        <img src="auction contention rates.png">
+    </div>
+    <div id="contention-price" class="step slide stat visible" data-x="5225" data-y="0" data-scale="0.45">
+        <h4>Ξ0.05 / Ξ0.02</h4>
+        <h3>Median price</h3>
+        <img src="median auction values.png">
+    </div>
+
+    <div id="lost-funds" class="step slide stat" data-x="6000" data-y="0">
+        <h4>Ξ8,553 (0.3%)</h4>
+        <h3>Ether Lost</h3>
+        <img src="percentage of ether lost.png">
+    </div>
+
+    <div id="squatting" class="step slide" data-x="7000" data-y="0">
+        <h1>Ownership distribution</h1>
+        <div style="transform: scale(0.35) translateX(-50%) translateY(-40%); position: absolute; left: 0; top: 0; width: 900px; height: 700px">
+            <div id="squatting-bidders" class="substat" style="left: -15%; top: 0%">
+                <h4>8,566</h5>
+                <h3>Name owners</h3>
+            </div>
+            <div id="squatting-whales" class="substat" style="left: 100%; top: 0%">
+                <h4>123 (1.4%)</h4>
+                <h3>Own 50% of names</h3>
+            </div>
+            <div id="squatting-whalecost" class="substat" style="left: -15%; top: 115%">
+                <h4>Ξ34,077 (20%)</h4>
+                <h3>Paid</h4>
+            </div>
+        </div>
+    </div>
+    <div id="squatting-hist" class="step slide visible" data-x="7200" data-y="150" data-scale="0.45">
+        <img src="histogram of owned domains.png" style="width: 90%; position: absolute; top: 50%; transform: translateY(-50%)">
+        <h3>Domains owned per account</h3>
+    </div>
+
+    <div id="adoption" class="step slide" data-x="8000" data-y="0">
+        <h1>Client Adoption</h1>
+        <div class="logos">
+            <img id="metamask" class="logo" src="metamask-logo.png"/>
+            <img id="mew" class="logo" src="mew-logo.png"/>
+            <img id="etherscan" class="logo" src="etherscan-logo.png"/>
+            <img id="leth" class="logo" src="leth-logo.png"/>
+            <img id="imtoken" class="logo" src="imtoken-logo.png"/>
+            <img id="mist" class="logo" src="mist-logo.png"/>
+            <img id="bitfinex" class="logo" src="bitfinex-logo.png"/>
+            <img id="swarm" class="logo" src="swarm-logo.png"/>
+        </div>
+    </div>
+
+    <div id="adoption-soon" class="step slide" data-x="9000" data-y="0">
+        <h1>Coming Soon</h1>
+        <div class="logos">
+            <img id="statusim" class="logo" src="statusim-logo.png"/>
+            <img id="kraken" class="logo" src="kraken-logo.png"/>
+            <img id="shapeshift" class="logo" src="shapeshift-logo.png"/>
+            <img id="district0x" class="logo" src="district0x-logo.png"/>
+        </div>
+    </div>
+
+    <div id="agenda" class="step slide" data-x="10000" data-y="0">
+        <h1>Agenda</h1>
+        <ul>
+            <li>0930 - 1000: Intro &amp; State of the ENS 🗣</li>
+            <li>1000 - 1030: MEW's experiences with ENS 🗣</li>
+            <li>1030 - 1100: Metamask's experiences with ENS 🗣</li>
+            <li>1100 - 1200: ENS soft launch postmortem 🗨</li>
+            <li>1200 - 1300: Lunch</li>
+            <li>1300 - 1445: Dispute resolution: What &amp; how? 🗨</li>
+            <li>1500 - 1645: Dispute resolution: Technical considerations 🗨</li>
+            <li>1700 - 1730: Session planning for Saturday 🗨</li>
+            <li>1800 - : ENS Social @ Temple Brew House 🍺</li>
+        </ul>
+    </div>
+</div>
+
+<script src="impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
