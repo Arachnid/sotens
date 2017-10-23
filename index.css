@@ -162,6 +162,15 @@ a:focus {
 
 .impress-enabled .step.active { opacity: 1 }
 
+.impress-enabled .step.onlypresent {
+  opacity: 0;
+  transition: none;
+}
+
+.impress-enabled .step.onlypresent.active {
+  opacity: 1;
+}
+
 /*
     These 'slide' step styles were heavily inspired by HTML5 Slides:
     http://html5slides.googlecode.com/svn/trunk/styles.css
@@ -204,10 +213,12 @@ a:focus {
 
 .slide h1 {
     font-size: 50px;
+    text-align: center;
 }
 
 .slide h2 {
     font-size: 30px;
+    text-align: center;
 }
 
 /*
@@ -221,16 +232,22 @@ a:focus {
     3D positioning along Z axis.
 */
 
+#title {
+  text-align: center;
+}
+
 #title h1 {
     font-size: 50px;
-    text-align: center;
     padding: 1em;
 }
 
 #title h2 {
     font-size: 30px;
-    text-align: center;
     padding: 1em;
+}
+
+#title img {
+  width: 40%;
 }
 
 .sponsor {
@@ -340,4 +357,52 @@ a:focus {
 
 #welcome .box img {
     width: 300px;
+}
+
+li {
+  margin-left: 1em;
+}
+
+.tld {
+  font-size: 5pt;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 6em;
+  letter-spacing: 0.5pt;
+}
+
+#supported-domains-xyz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+}
+
+#supported-domains {
+  line-height: 1.4pt;
+  text-align: center;
+  position: relative;
+}
+
+#supported {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #77dd77;
+}
+
+#unsupported {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 75%;
+  top: 0;
+  background: #dd7777;
+}
+
+#ens-foundation {
+  text-align: center;
 }
