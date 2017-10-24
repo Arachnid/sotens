@@ -364,12 +364,11 @@ li {
 }
 
 .tld {
-  font-size: 5pt;
+  font-size: 14pt;
   display: inline-block;
   margin: 0;
   padding: 0;
-  width: 6em;
-  letter-spacing: 0.5pt;
+  width: 5em;
 }
 
 #supported-domains-xyz {
@@ -379,28 +378,9 @@ li {
   font-size: 200px;
 }
 
-#supported-domains {
-  line-height: 1.4pt;
+.supported {
   text-align: center;
   position: relative;
-}
-
-#supported {
-  position: absolute;
-  width: 75%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #77dd77;
-}
-
-#unsupported {
-  width: 25%;
-  height: 100%;
-  position: absolute;
-  left: 75%;
-  top: 0;
-  background: #dd7777;
 }
 
 #ens-foundation {
