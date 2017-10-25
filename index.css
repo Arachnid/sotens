@@ -386,3 +386,20 @@ li {
 #ens-foundation {
   text-align: center;
 }
+
+.coc img {
+  width: 100px;
+}
+
+.coc table {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.coc td, .coc th {
+  text-align: center;
+}
+
+.coc th:first-child {
+  width: 100px;
+}
